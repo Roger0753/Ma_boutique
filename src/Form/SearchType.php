@@ -1,7 +1,7 @@
 <?php
 namespace App\Form;
 
-use App\Classe\Search;
+use App\Service\Search;
 use App\Entity\Categorie;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;

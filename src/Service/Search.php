@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Classe;
+namespace App\Service;
 
 class Search
 {
@@ -16,7 +16,7 @@ class Search
     {
         $this->string = $string;
     }
-
+    
     public function getCategorie()
     {
         return $this->categories;

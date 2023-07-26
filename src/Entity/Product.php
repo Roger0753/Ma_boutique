@@ -67,9 +67,9 @@ class Product
         return $this->slug;
     }
 
-    public function setSlug(string $Slug): static
+    public function setSlug(string $slug): static
     {
-        $this->slug = $Slug;
+        $this->slug = $slug;
 
         return $this;
     }
